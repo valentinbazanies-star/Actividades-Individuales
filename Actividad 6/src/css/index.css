@@ -1,0 +1,29 @@
+html,
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------- */
+.encabezado-principal {}
+
+.encabezado-principal .boton {
+    background-color: rgb(18, 18, 18) color antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ---------------------------- */
+.contenido-principal{}
+
+/* ---------------------------- */
+.pie-principal{}
+
+
+/* ---------------------------- */

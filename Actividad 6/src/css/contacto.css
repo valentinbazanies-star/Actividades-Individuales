@@ -1,4 +1,4 @@
-html, body, h1, h2, h3,p{
+html, body, h1, h2, h3,p,ul,li{
     margin:0;
     padding:0;
 }
@@ -14,6 +14,7 @@ a{
     text-decoration: none;
     color: inherit ;
 }
+
 
 /*------- header ------- */
 .cabecera-principal{
@@ -39,54 +40,59 @@ a{
 .cabecera-principal nav a:hover{
     color: #4abfe2;
 }
-
 /*------body-------- */
 .contenido-principal{
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-    
-}
-.contenido-principal img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 25px;
-    border-radius: 8px;
-}
-
-.contenido-principal p {
-    font-size: 1.30rem;
-    margin-bottom: 15px;
-    color: #040404;
-}
-.contenido-principal h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    color: #1e49ca;
-}
-/*-----section------*/
-.contenido-principal section{
-    background-color: #46ddb7;
-    padding: 20px;
+    background-color: #95f3f5;
     margin-top: 20px;
-}
-.contenido-principal section h3{
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-    color: #1e49ca;
-}
-.contenido-principal section p{
+    margin-bottom: 20px;
+    padding: 30px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
     font-size: 1.3rem;
+}
+.contenido-principal h1{
+    font-size: 3rem;
     margin-bottom: 15px;
-    color: #040404;
+}
+.contenido-principal form{
+    display: flex;
+    flex-direction: column;
+}
+.contenido-principal label{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #1e293b
+}
+ .contenido-principal input[type="text"],
+ .contenido-principal input[type="email"],
+ .contenido-principal input[type="tel"],
+ .contenido-principal select,
+ .contenido-principal textarea {    
+    width: 20%;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: #333;
+}
+.contenido-principal form input[type="submit"] {
+    margin-top: 25px;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.contenido-principal form input[type="submit"]:hover {
+    background-color: #18379e;
+}
+.contenido-principal label[for="id-servicio"] {
+    margin-top: 20px;
+    font-size: 1.3rem;
 }
 
-.contenido-principal ul li{
-    margin-bottom: 10px;
-    color: #040404;
-    font-size: 1.2rem;
-}
-/* ------footer------- */
+/*------- footer------- */
 .pie-principal{
     background-color: #1e49ca;
     color: #ffffff;

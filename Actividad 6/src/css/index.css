@@ -1,0 +1,50 @@
+html, body, h1, h2, h3,p{
+    margin:0;
+    padding:0;
+}
+/* Selectores de TIPO */
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: rgb(221, 118, 118);
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* selectores de CLASE */
+.vinculo-pie{
+    color: #333333;
+}
+
+/* Cabecera */
+.cabecera-principal{
+    background-color: #999999;
+}
+
+.cabecera-principal a img{
+    width: 50px;
+}
+
+.cabecera-principal nav a{
+    color: #333;
+}
+
+/* contenido principal */
+.contenido-principal{
+    
+}
+.contenido-principal .contenedor{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: #ccc;
+
+}
+
+/* pie principal */
+.pie-principal{
+    background-color: #999999;
+}

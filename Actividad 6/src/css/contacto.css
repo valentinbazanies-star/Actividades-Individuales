@@ -1,0 +1,125 @@
+html, body, h1, h2, h3,p,ul,li{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #95f3f5;
+    color: #333;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: inherit ;
+}
+
+
+/*------- header ------- */
+.cabecera-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e49ca;
+    padding: 15px 30px;
+}
+
+.cabecera-principal a img{
+    width: 170px;
+}
+
+.cabecera-principal nav a{
+    color: #ffffff;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cabecera-principal nav a:hover{
+    color: #4abfe2;
+}
+/*------body-------- */
+.contenido-principal{
+    background-color: #95f3f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+.contenido-principal h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.contenido-principal form{
+    display: flex;
+    flex-direction: column;
+}
+.contenido-principal label{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #1e293b
+}
+ .contenido-principal input[type="text"],
+ .contenido-principal input[type="email"],
+ .contenido-principal input[type="tel"],
+ .contenido-principal select,
+ .contenido-principal textarea {    
+    width: 20%;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: #333;
+}
+.contenido-principal form input[type="submit"] {
+    margin-top: 25px;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.contenido-principal form input[type="submit"]:hover {
+    background-color: #18379e;
+}
+.contenido-principal label[for="id-servicio"] {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+/*------- footer------- */
+.pie-principal{
+    background-color: #1e49ca;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+.pie-principal p{
+    color: #040404;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.pie-principal ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+.pie-principal ul li{
+    margin: 0 10px;
+}
+.pie-principal ul li a{
+    color: #46a1ce;
+    font-size: 1.2rem;
+}
+.pie-principal ul li a:hover{
+    color: #4abfe2;
+}

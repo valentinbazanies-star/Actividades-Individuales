@@ -1,0 +1,64 @@
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-fondo: #0f172a;
+    --color-tarjeta: #1e293b;
+    --color-texto: #f8fafc;
+    --color-primario: #38bdf8;
+    --color-primario-hover: #0369a1;
+    --sombra: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+}
+/* Cabecera*/
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: var(--color-primario);
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta {
+    background-color: var(--color-tarjeta);
+    border: 1px solid #cbd5e1;
+    padding: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: var(--sombra);
+}
+
+.tarjeta h2 {
+    color: var(--color-primario);
+    margin-bottom: 1rem;
+}
+
+.tarjeta p {
+    margin-bottom: 1.5rem;
+}
+.btn {
+    background-color: var(--color-primario);
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--color-primario-hover);
+}
